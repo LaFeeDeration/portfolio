@@ -1,0 +1,22 @@
+.title{
+    &--landing{
+        font-family: 'Integral CF';
+        text-align: center;
+        font-size: 160px;
+        line-height: 130px;
+
+        &--first{
+            -webkit-text-stroke: 4px #FFF;
+            color: transparent;
+        }
+
+        &--second{
+            color: #FFF;
+        }
+
+        &--third{
+            color: #0080F5;
+
+        }
+    }
+}

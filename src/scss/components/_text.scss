@@ -1,0 +1,33 @@
+.text{
+
+    &--navbar{
+        font-family: 'Neue Metana SB';
+        color: #FFF;
+        font-size: 24px;
+    }
+
+    &--bottom{
+        font-family: 'Neue Metana SB';
+        color: #FFF;
+        font-size: 24px;
+        
+        &--lu{
+            font-size: 60px;
+            margin-left: 20px;
+        }
+
+        &--small{
+            margin-left: 20px;
+        }
+
+        &--wishes{
+            font-family: 'Dirtyline';
+            
+        }
+
+        &--blue{
+            color: $blue;
+        }
+        
+    }
+}

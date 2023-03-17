@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@font-face {
+  font-family: "Neue Metana SB";
+  src: url(../../../assets/fonts/NeueMetana-SemiBold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Neue Metana OT";
+  src: url(../../../assets/fonts/NeueMetana-Outline.otf) format("opentype");
+}
+@font-face {
+  font-family: "Integral CF";
+  src: url(../../../assets/fonts/IntegralCF-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Dirtyline";
+  src: url(../../../assets/fonts/Dirtyline36daysoftype.otf) format("opentype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  overflow: hidden;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.container--landing {
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_bar {
+  display: flex;
+  justify-content: space-between;
+}
+.content_bar--landing--top {
+  width: 100%;
+  height: 8%;
+  background-color: none;
+  place-items: center;
+}
+.content_bar--landing--top--list {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.content_bar--landing--top--logo {
+  width: 10%;
+  display: grid;
+  place-items: center;
+}
+.content_bar--landing--bottom {
+  width: 100%;
+  height: 10%;
+  margin-bottom: 20px;
+}
+.content_bar--landing--bottom--right {
+  width: 10%;
+  display: grid;
+  place-items: center;
+}
+
+.title--landing {
+  font-family: "Integral CF";
+  text-align: center;
+  font-size: 160px;
+  line-height: 130px;
+}
+.title--landing--first {
+  -webkit-text-stroke: 4px #FFF;
+  color: transparent;
+}
+.title--landing--second {
+  color: #FFF;
+}
+.title--landing--third {
+  color: #0080F5;
+}
+
+.text--navbar {
+  font-family: "Neue Metana SB";
+  color: #FFF;
+  font-size: 24px;
+}
+.text--bottom {
+  font-family: "Neue Metana SB";
+  color: #FFF;
+  font-size: 24px;
+}
+.text--bottom--lu {
+  font-size: 60px;
+  margin-left: 20px;
+}
+.text--bottom--small {
+  margin-left: 20px;
+}
+.text--bottom--wishes {
+  font-family: "Dirtyline";
+}
+.text--bottom--blue {
+  color: #0080F5;
+}
+
+.lightsphere {
+  z-index: -1;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+}
+.lightsphere--blue {
+  top: -30%;
+  left: -15%;
+  background-color: #0080F5;
+  filter: blur(100px);
+  opacity: 40%;
+}
+.lightsphere--grey {
+  bottom: -10%;
+  right: -15%;
+  background-color: #FFF;
+  filter: blur(100px);
+  opacity: 20%;
+}
+
+/*# sourceMappingURL=main.css.map */
